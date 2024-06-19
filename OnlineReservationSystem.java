@@ -2,12 +2,12 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class OnlineReservationSystem {
+class OnlineReservationSystem {
     private static boolean[] seats = new boolean[10];
     private Map<String, String> users; // Store username-password pairs
     private Map<String, String> reservations; // Store reservation data
     
-    public OnlineReservationSystem() {
+     OnlineReservationSystem() {
         users = new HashMap<>();
         reservations = new HashMap<>();
     }
