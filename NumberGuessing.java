@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Random; 
 
-class Guess 
+class Guess
 {
 	int systemInput; 
 	int userInput; 
@@ -93,7 +93,7 @@ class Guess
 	}
 } 
 
-public class NumberGuessing
+class NumberGuessing
 { 
 	public static int takeIntegerInput(int limit) 
 	{ 
